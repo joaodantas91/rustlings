@@ -8,7 +8,7 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let a:String = ['a' ; 100].into_iter().collect();
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
